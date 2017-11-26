@@ -1,0 +1,86 @@
+/*
+ASIGNACIÓN DE IMG BACKGROUND
+*/
+body {
+  background-image: url(http://miriadna.com/desctopwalls/images/max/Autumn-times.jpg);
+  background-attachment: fixed;
+}
+
+
+/*
+ASIGNACIÓN COLOR PARA LAS CLASES CELL QUE CONTENGA LOS ELEMENTOS DEL DOM H1 Y P
+*/
+
+.cell > h1, .cell > p{
+  color:  rgba(255, 255, 255, 1);
+}
+
+
+/*
+AJUSTE DE ALPHA Y COLOR BACKGROUND CLASES GRID-CONTAINER, MEDIA-OBJECT Y CALLOUT
+*/
+
+.grid-container {
+  background-color: rgba(85, 139, 47, 0.3);
+  scroll-behavior: auto;
+}
+
+.media-object {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+.callout {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*
+ASIGNACIÓN DE BORDE AL COMPONENTE DEL DOM CON ID HEADER
+*/
+
+#header {
+  border-right: 1px solid silver;
+}
+
+/*
+ASIGNACIÓN DE PROPIEDADES PARA LOS COMPONENTES CON CLASE LIST Y SPAN
+*/
+
+span {
+  font-weight: bold;
+}
+
+.list-group {
+  box-shadow: none;
+}
+
+.list-group-item {
+  font-weight: bold;
+}
+
+
+/*
+ASIGNACIÓN DE PROPIEDADES PARA VISUALIZACIÓN DE LISTADO DE PREPARACIÓN DE LA RECETA, CONTROL A LOS ELEMENTOS TIPO PARRAFO.
+*/
+
+.preparacion p:before {
+  content: "";
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background: rgba(234, 234, 234, 1);
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/*
+ASIGNACIÓN DE PROPIEDAD BORDER PARA SECCIONES DE COMENTARIOS
+*/
+
+.media-object {
+  border: 1px solid silver;
+}

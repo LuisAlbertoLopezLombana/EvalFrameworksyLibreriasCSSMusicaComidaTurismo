@@ -1,0 +1,54 @@
+/*
+ASIGNACIÓN DE PROPIEDAD DE COLOR DE FONDO PARA EL ELEMENTO BODY Y NAV
+*/
+body {
+  background-color: #00796b;
+}
+
+nav {
+  background-color: #004d40;
+}
+
+/*
+AJUSTE DE SECCIÓN NAVEGACIÓN
+*/
+
+.navbar {
+  padding: 0px;
+  border-radius: 0px 0px 2px 2px;
+}
+
+/*
+AJUSTE DE SECCIÓN DE CONTENEDOR QUE ABARCA LAS DEMÁS SECCIONES
+*/
+
+
+.container {
+  padding: 0px;
+  border-radius: 2px;
+  background-color: #ffffff;
+}
+
+
+/*
+AJUSTE DE LINKS
+*/
+a {
+  color: #ffffff;
+  text-align: center;
+}
+
+a:hover {
+  background-color: #ffffff;
+}
+
+/*
+AJUSTE DE ELEMENTOS CON CLASE TIPO CARD Y AJUSTE DE SECCIÓN BUSCADOR
+*/
+.card{
+  margin-top: 1%;
+}
+
+img, #buscador{
+  margin: 5% 0% 5% 0% ;
+}
